@@ -1,11 +1,13 @@
 [user]
-	name = Sebastian Hanula
-	email = sebastian.hanula@gmail.com
+  name = Sebastian Hanula
+  email = sebastian.hanula@gmail.com
 
 [color]  # Ensure we get color
+
   diff   = auto
   branch = auto
   status = auto
+
 [alias]  # shortcuts
   b      = branch
   c      = checkout
@@ -20,5 +22,7 @@
   w      = whatchanged -p
   # changes since we last did a push
   wo     = whatchanged -p origin..
+
 [push]
-	default = simple
+  default = simple
+
