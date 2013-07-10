@@ -1,0 +1,5 @@
+
+startup_message off
+
+hardstatus alwayslastline "%{=b}screen: %{=}%-w%{+b w}%n %t%{-b w}%+w %=%c"
+
