@@ -27,8 +27,9 @@ feh --bg-scale .config/wallpaper.png
 xrdb -merge $HOME/.Xresources
 xmodmap ~/.Xmodmap
 setxkbmap -layout pl -option ctrl:nocaps
+udiskie -2 &
 
-hash chromium && chromium &
+#hash chromium && chromium &
 
 while true
 do
