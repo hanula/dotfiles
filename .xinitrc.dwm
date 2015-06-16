@@ -30,6 +30,7 @@ setxkbmap -layout pl -option ctrl:nocaps
 udiskie -2 &
 
 #hash chromium && chromium &
+hash firefox && firefox &
 
 while true
 do
