@@ -22,7 +22,7 @@
   w      = whatchanged -p
   # changes since we last did a push
   wo     = whatchanged -p origin..
-
+  ls     = ls-tree -r --name-only HEAD
 [push]
   default = simple
 
