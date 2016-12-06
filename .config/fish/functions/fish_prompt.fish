@@ -6,7 +6,7 @@ function fish_prompt
     set_color cyan
     echo -n (prompt_pwd)
     set_color 3e3e3e
-    vcprompt -f " (%b%m%u)"
+    vcprompt -nf " (%b%m%u)"
 #    set_color normal
     set_color 9ae 
     echo -n '> '
