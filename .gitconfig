@@ -23,6 +23,7 @@
   # changes since we last did a push
   wo     = whatchanged -p origin..
   ls     = ls-tree -r --name-only HEAD
+  undo    = reset --soft HEAD~
 [push]
   default = simple
 
