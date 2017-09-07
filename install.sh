@@ -10,5 +10,8 @@ echo "Installing Vim"
 ln -sf $(pwd)/.vimrc ~/
 ln -sf $(pwd)/.vim ~/
 
+echo "Installing Postgres"
+ln -sf $(pwd)/.psqlrc ~/
+
 echo "Done."
 
